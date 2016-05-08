@@ -1,0 +1,32 @@
+{
+  "name": "postcss-clearfix",
+  "version": "0.0.0",
+  "description": "PostCSS plugin when create clearfix from one world",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "clearfix"
+  ],
+  "author": "6thSence <d.pushkarskaya.pr@gmail.com>",
+  "license": "MIT",
+  "repository": "6thSence/postcss-clearfix",
+  "bugs": {
+    "url": "https://github.com/6thSence/postcss-clearfix/issues"
+  },
+  "homepage": "https://github.com/6thSence/postcss-clearfix",
+  "dependencies": {
+    "postcss": "^5.0.16"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.1.0",
+    "eslint-config-postcss": "^2.0.0"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
