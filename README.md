@@ -1,4 +1,4 @@
-# PostCSS Clearfix [![Build Status][ci-img]][ci]
+# PostCSS Clearfix
 
 [PostCSS] plugin when create clearfix from one world.
 
@@ -8,13 +8,22 @@
 
 ```css
 .foo {
-    /* Input example */
+   .selector {
+	   clearfix: true;
+	   }
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+	.selector {
+		}
+
+	.selector:after {
+		clear: both;
+		display: block;
+		content: "";
+	}
 }
 ```
 
