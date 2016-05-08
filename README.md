@@ -1,6 +1,8 @@
 # PostCSS Clearfix
 
-[PostCSS] plugin when create clearfix from one world.
+[PostCSS] plugin when create clearfix from one word.
+
+![wow](https://github.com/6thSence/assets-for-any-occasion/raw/master/200 (8).gif)
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/6thSence/postcss-clearfix.svg
