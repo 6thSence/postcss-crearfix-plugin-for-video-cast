@@ -1,6 +1,6 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-clearfix', function (opts) {
+module.exports = postcss.plugin('postcss-clearfix', (opts) => {
     opts = opts || {};
 
     return function (css, result) {

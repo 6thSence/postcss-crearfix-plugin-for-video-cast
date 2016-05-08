@@ -9,23 +9,19 @@
 [ci]:      https://travis-ci.org/6thSence/postcss-clearfix
 
 ```css
-.foo {
-   .selector {
-	   clearfix: true;
-	   }
-}
+.selector {
+   clearfix: true;
+   }
 ```
 
 ```css
-.foo {
-	.selector {
-		}
-
-	.selector:after {
-		clear: both;
-		display: block;
-		content: "";
+.selector {
 	}
+
+.selector:after {
+	clear: both;
+	display: block;
+	content: "";
 }
 ```
 
