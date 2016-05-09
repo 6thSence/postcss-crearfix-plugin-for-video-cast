@@ -1,7 +1,9 @@
-import * as postcss from 'postcss';
+var postcss = require('postcss');
 
-export default postcss.plugin('postcss-reverse-props', (options = {}) => {
-    return css => {
+module.exports = postcss.plugin('postcss-clearfix', function (opts) {
+    opts = opts || {};
+
+    return function (css, result) {
 
         css.walkDecls(decl => {
             if (decl.prop === 'clearfix') {
